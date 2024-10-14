@@ -1,0 +1,31 @@
+<!DOCTYPE html>  
+<html lang="zh-CN">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>个人通讯录系统</title>  
+    <link rel="stylesheet" href="styles.css">  
+</head>  
+<body>  
+    <div class="container">  
+        <h1>个人通讯录系统</h1>  
+        <div class="form-container">  
+            <h2>添加/修改联系人</h2>  
+            <form id="contactForm">  
+                <label for="name">姓名:</label>  
+                <input type="text" id="name" name="name" required>  
+                <label for="phone">电话:</label>  
+                <input type="tel" id="phone" name="phone" required>  
+                <label for="email">邮箱:</label>  
+                <input type="email" id="email" name="email" required>  
+                <button type="submit">保存</button>  
+            </form>  
+        </div>  
+        <div class="contacts-container">  
+            <h2>联系人列表</h2>  
+            <ul id="contactList"></ul>  
+        </div>  
+    </div>  
+    <script src="script.js"></script>  
+</body>  
+</html>
